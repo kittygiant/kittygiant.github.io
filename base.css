@@ -1,0 +1,173 @@
+html {
+  background-color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 50px 40px 40px 30px;
+  line-height: 1.5;
+  color: #141414;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  margin-bottom: 45px;
+}
+
+main {
+  padding: 0;
+}
+
+a {
+  color: #354691;
+}
+
+p {
+  margin: 0 0 1em;
+  padding: 0;
+}
+
+.desc-wrap {
+  /*display: none;*/
+}
+
+.desc {
+  margin-bottom: 35px;
+}
+
+.lead {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.85;
+}
+
+.lead:last-child {
+  margin-bottom: 0;
+}
+
+.text-muted {
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.link-btn {
+  padding: 10px 20px;
+  border: 2px solid #141414;
+  border-radius: 9px;
+  font-weight: bold;
+  color: #141414;
+  text-decoration: none;
+  background-color: white;
+}
+
+.link-btn:hover {
+  background-color: #354691;
+  border-color: #354691;
+  color: #fff;
+}
+
+.i-cross {
+  position: absolute;
+  padding: 7px 10px;
+  background-color: transparent;
+  border: 0 none;
+  font-size: 22px;
+  top: -17px;
+  right: -15px;
+  cursor: pointer;
+}
+
+.statement-wrap {
+  position: relative;
+}
+
+.statement-header {
+  padding-right: 30px;
+}
+
+.statement {
+  margin-bottom: 30px;
+}
+
+.clarification {
+  margin-top: 85px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 82px 80px;
+    font-size: 20px;
+  }
+
+  main {
+    padding: 0 68px;
+  }
+
+  header {
+    margin-bottom: 65px;
+  }
+
+  .desc {
+    margin-bottom: 55px;
+  }
+
+  .lead {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .statement {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 24px;
+  }
+
+  main {
+    padding: 0 10%;
+  }
+
+  header {
+    margin-bottom: 55px;
+  }
+
+  .desc {
+    margin-bottom: 55px;
+  }
+
+  .lead {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+
+  .statement {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1280px) {
+  main {
+    padding: 0 20%;
+  }
+
+  .lead {
+    font-size: 32px;
+  }
+
+  .statement-wrap {
+    margin-top: -20px;
+  }
+
+  .statement {
+    font-size: 18px;
+  }
+
+  .i-cross {
+    display: none;
+  }
+}
