@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 50px 40px 40px 30px;
   line-height: 1.5;
-  color: #141414;
+  color: #000;
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -36,8 +36,8 @@ main {
     overflow-y: auto; /* In case the text overflows */
     text-align: left; /* Center the text */
 
-    padding: 0 110px;
-    font-size: 24px;
+    padding: 0 150px;
+    font-size: 22px;
 }
 
 .text-muted {
@@ -68,10 +68,12 @@ main {
 }
 
 .banner {
-    width: 90%; /* Make images responsive */
+    width: 80%; /* Make images responsive */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Prevent inline spacing */
-    margin: auto;
+    /* margin: center; */
+    margin-left: auto; /* Automatically adjust the left margin */
+    margin-right: 0; /* Set the right margin to 0 to align the image to the right */
 }
 
 /* Add some style to the header */
@@ -82,13 +84,13 @@ main {
 /* Style for the main title and subtitle */
 h1 {
     font-size: 2em; /* Large text for the title */
-    color: #333; /* Dark text color */
+    color: #000; /* Dark text color */
 }
 
 /* Style for the paragraphs */
 p {
     font-size: 1em; /* Standard text size */
-    color: #666; /* Lighter text color */
+    color: #333; /* Lighter text color */
     line-height: 1.6; /* Spacing between lines */
     margin-bottom: 1em; /* Spacing between paragraphs */
 }
