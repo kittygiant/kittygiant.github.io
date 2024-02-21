@@ -1,0 +1,96 @@
+/* Reset some basic elements */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure the body takes full viewport height and content is flexibly distributed */
+/* body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+} */
+
+body {
+  margin: 0;
+  padding: 50px 40px 40px 30px;
+  line-height: 1.5;
+  color: #141414;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Container to hold all content */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header, footer {
+    flex: 0 0 auto; /* Do not grow or shrink */
+}
+
+main {
+    flex: 1 0 auto; /* Grow to fill space */
+    padding: 20px; /* Add some spacing around the text */
+    overflow-y: auto; /* In case the text overflows */
+    text-align: left; /* Center the text */
+
+    padding: 0 68px;
+    font-size: 20px;
+}
+
+.text-muted {
+    margin-bottom: 20px;
+    opacity: 0.5;
+  }
+  .link-btn {
+    padding: 10px 20px;
+    border: 2px solid #141414;
+    border-radius: 9px;
+    font-weight: bold;
+    color: #141414;
+    text-decoration: none;
+    background-color: white;
+  }
+  
+  .link-btn:hover {
+    background-color: #354691;
+    border-color: #354691;
+    color: #fff;
+  }
+  
+
+.logo {
+    width: 20%;
+    height: auto; 
+    display: block; 
+}
+
+.banner {
+    width: 70%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent inline spacing */
+    margin: auto;
+}
+
+/* Add some style to the header */
+/* header {
+    padding: 20px;
+} */
+
+/* Style for the main title and subtitle */
+h1 {
+    font-size: 2em; /* Large text for the title */
+    color: #333; /* Dark text color */
+}
+
+/* Style for the paragraphs */
+p {
+    font-size: 1em; /* Standard text size */
+    color: #666; /* Lighter text color */
+    line-height: 1.6; /* Spacing between lines */
+    margin-bottom: 1em; /* Spacing between paragraphs */
+}
+
+/* Style for the footer/banner */

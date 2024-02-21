@@ -1,0 +1,58 @@
+
+html {
+  background-color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 50px 40px 40px 30px;
+  line-height: 1.5;
+  color: #141414;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  margin-bottom: 45px;
+}
+
+main {
+  padding: 0;
+}
+
+a {
+  color: #354691;
+}
+
+p {
+  margin: 0 0 1em;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 82px 80px;
+    font-size: 20px;
+  }
+
+  main {
+    padding: 0 68px;
+  }
+
+  header {
+    margin-bottom: 65px;
+  }
+
+  .desc {
+    margin-bottom: 55px;
+  }
+
+  .lead {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .statement {
+    font-size: 16px;
+  }
+}
