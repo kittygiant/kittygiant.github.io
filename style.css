@@ -36,8 +36,8 @@ main {
     overflow-y: auto; /* In case the text overflows */
     text-align: left; /* Center the text */
 
-    padding: 0 68px;
-    font-size: 20px;
+    padding: 0 110px;
+    font-size: 24px;
 }
 
 .text-muted {
@@ -55,20 +55,20 @@ main {
   }
   
   .link-btn:hover {
-    background-color: #354691;
-    border-color: #354691;
+    background-color: #FFCD00;
+    border-color: #FFCD00;
     color: #fff;
   }
   
 
 .logo {
-    width: 20%;
+    width: 25%;
     height: auto; 
     display: block; 
 }
 
 .banner {
-    width: 70%; /* Make images responsive */
+    width: 90%; /* Make images responsive */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Prevent inline spacing */
     margin: auto;
